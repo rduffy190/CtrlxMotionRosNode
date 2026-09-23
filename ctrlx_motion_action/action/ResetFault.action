@@ -1,0 +1,6 @@
+#action requests, no signal 
+---
+bool done
+---
+bool resetting
+

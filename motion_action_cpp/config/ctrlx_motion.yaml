@@ -1,0 +1,39 @@
+# ctrlX MOTION ROS bridge parameters.
+#
+# Matches CtrlxMotionNode::declare_parameters(). Applied with either
+#   ros2 run motion_action_cpp ctrlx_motion_node --ros-args \
+#     --params-file install/motion_action_cpp/share/motion_action_cpp/config/ctrlx_motion.yaml
+# or via a launch file.
+
+/**:
+  ros__parameters:
+
+    # --- axis discovery -----------------------------------------------------
+    # Browsed to find the axis names. Each name becomes a set of ROS interfaces:
+    #   <axis>_status          (topic,  axis_status_msg/AxisStatus)
+    #   <axis>_power           (action, ctrlx_motion_action/PowerOn)
+    #   <axis>_reset           (action, ctrlx_motion_action/ResetFault)
+    #   <axis>_move_position   (action, ctrlx_motion_action/MovePosition)
+    # TODO verify this root browses to the axis list on your firmware.
+    axes_root: "motion/axs"
+
+    # Leave empty to discover by browsing axes_root. Set explicitly to pin the
+    # list, or when the root also returns non-axis children.
+    axes: ['X']
+
+    # --- status rates -------------------------------------------------------
+    # How often the ROS timer publishes every axis topic from the read buffer.
+    status_ros_publish_interval_ms: 100
+
+    # Data Layer subscription publishInterval: how often the motion app batches
+    # changed nodes into one callback.
+    #
+    # Keep this at or below status_ros_publish_interval_ms. If the Data Layer
+    # pushes slower than the ROS timer fires, the timer just republishes
+    # identical cached values and the extra topic traffic buys nothing.
+    status_publish_interval_ms: 100
+
+    # Subscription sampling interval, in MICROseconds - how often the motion app
+    # samples each node to decide whether it changed. 50000 = 50 ms, i.e. up to
+    # two samples per 100 ms publish interval.
+    status_sampling_interval_us: 50000

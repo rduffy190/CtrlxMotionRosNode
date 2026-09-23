@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/motion_action_cpp -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.107s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.180s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.180s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.365s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.438s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.466s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.557s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.626s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.702s] -- Found rclcpp_action: 28.1.21 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.733s] -- Found axis_status_msg: 0.0.0 (/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake)
+[0.741s] -- Found ctrlx_motion_action: 0.0.0 (/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake)
+[0.794s] -- ctrlX Data Layer: pkg-config (3.5.2)
+[0.796s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.880s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.881s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/riley/Dev/motion_action/motion_action_src/motion_action_cpp/include>
+[0.881s] -- Configured cppcheck exclude dirs and/or files: 
+[0.881s] -- Added test 'lint_cmake' to check CMake code style
+[0.883s] -- Added test 'uncrustify' to check C / C++ code style
+[0.883s] -- Configured uncrustify additional arguments: 
+[0.883s] -- Added test 'xmllint' to check XML markup files
+[0.885s] -- Configuring done (0.9s)
+[0.894s] -- Generating done (0.0s)
+[0.898s] -- Build files have been written to: /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp
+[0.907s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/motion_action_cpp -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp
+[0.908s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp -- -j8 -l8
+[0.944s] [ 75%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_node.dir/src/ctrlx_motion_node.cpp.o[0m
+[0.944s] [ 75%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_node.dir/src/ctrlx_axis_itf.cpp.o[0m
+[0.944s] [ 75%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_node.dir/src/ctrlx_status_itf.cpp.o[0m
+[6.280s] [100%] [32m[1mLinking CXX executable ctrlx_motion_node[0m
+[6.510s] [100%] Built target ctrlx_motion_node
+[6.518s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp -- -j8 -l8
+[6.519s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp
+[6.524s] -- Install configuration: ""
+[6.524s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/motion_action_cpp/ctrlx_motion_node
+[6.526s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/motion_action_cpp/ctrlx_motion_node" to ""
+[6.526s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/config
+[6.526s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/config/ctrlx_motion.yaml
+[6.526s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/ament_index/resource_index/package_run_dependencies/motion_action_cpp
+[6.526s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/ament_index/resource_index/parent_prefix_path/motion_action_cpp
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/environment/ament_prefix_path.sh
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/environment/ament_prefix_path.dsv
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/environment/path.sh
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/environment/path.dsv
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/local_setup.bash
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/local_setup.sh
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/local_setup.zsh
+[6.527s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/local_setup.dsv
+[6.528s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.dsv
+[6.528s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/ament_index/resource_index/packages/motion_action_cpp
+[6.528s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/cmake/motion_action_cppConfig.cmake
+[6.528s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/cmake/motion_action_cppConfig-version.cmake
+[6.528s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.xml
+[6.529s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp

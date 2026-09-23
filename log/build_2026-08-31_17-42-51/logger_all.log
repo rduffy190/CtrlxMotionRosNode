@@ -1,0 +1,587 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7591315ab860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75913147fd10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75913147fd10>>, mixin_verb=('build',))
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.105s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/riley/Dev/motion_action/motion_action_src'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(axis_status_msg) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'axis_status_msg' with type 'ros.ament_cmake' and name 'axis_status_msg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(ctrlx_motion_action) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'ctrlx_motion_action' with type 'ros.ament_cmake' and name 'ctrlx_motion_action'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(motion_action_cpp) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'motion_action_cpp' with type 'ros.ament_cmake' and name 'motion_action_cpp'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(overlay) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/build) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/build) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/build) ignored
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'python'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extensions ['python_setup_py']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/export) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/install) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/install) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/install) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['cmake', 'python']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'cmake'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'python'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extensions ['python_setup_py']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/layer) by extension 'python_setup_py'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'ros'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/run) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/src) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/src) ignored
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/stage_packages) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(parts/ros-app/state) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'ros'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['cmake', 'python']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'cmake'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'python'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extensions ['python_setup_py']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/build) by extension 'python_setup_py'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/export) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'ros'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['cmake', 'python']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'cmake'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'python'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extensions ['python_setup_py']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr) by extension 'python_setup_py'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/install/usr/bin) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'ros'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['cmake', 'python']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'cmake'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'python'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extensions ['python_setup_py']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/layer) by extension 'python_setup_py'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/run) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/src) by extension 'python_setup_py'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['ignore', 'ignore_ament_install']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'ignore'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'ignore_ament_install'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['colcon_pkg']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'colcon_pkg'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['colcon_meta']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'colcon_meta'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['ros']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'ros'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['cmake', 'python']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'cmake'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'python'
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extensions ['python_setup_py']
+[0.134s] Level 1:colcon.colcon_core.package_identification:_identify(parts/wrapper-scripts/state) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(prime) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(prime) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(prime) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(snap) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(stage) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(stage) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(stage) ignored
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'ignore'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'ignore_ament_install'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['colcon_pkg']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'colcon_pkg'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['colcon_meta']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'colcon_meta'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['ros']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(wrapper) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.148s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_target' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] Level 5:colcon.colcon_core.verb:set package 'axis_status_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] DEBUG:colcon.colcon_core.verb:Building package 'axis_status_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg', 'merge_install': False, 'path': '/home/riley/Dev/motion_action/motion_action_src/axis_status_msg', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'ctrlx_motion_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'ctrlx_motion_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action', 'merge_install': False, 'path': '/home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'motion_action_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'motion_action_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp', 'merge_install': False, 'path': '/home/riley/Dev/motion_action/motion_action_src/motion_action_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.179s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.180s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/Dev/motion_action/motion_action_src/axis_status_msg' with build type 'ament_cmake'
+[0.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/Dev/motion_action/motion_action_src/axis_status_msg'
+[0.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.182s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action' with build type 'ament_cmake'
+[0.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action'
+[0.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/axis_status_msg -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg
+[0.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/axis_status_msg -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg
+[2.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg -- -j8 -l8
+[2.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action -- -j8 -l8
+[4.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg -- -j8 -l8
+[4.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg
+[4.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axis_status_msg)
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg' for CMake module files
+[4.576s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg' for CMake config files
+[4.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'cmake_prefix_path')
+[4.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.ps1'
+[4.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.dsv'
+[4.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.sh'
+[4.579s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib'
+[4.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'ld_library_path_lib')
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.ps1'
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.dsv'
+[4.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.sh'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/bin'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/pkgconfig/axis_status_msg.pc'
+[4.580s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages'
+[4.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'pythonpath')
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.ps1'
+[4.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.dsv'
+[4.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.sh'
+[4.583s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/bin'
+[4.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.ps1'
+[4.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.dsv'
+[4.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.sh'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.bash'
+[4.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.zsh'
+[4.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/colcon-core/packages/axis_status_msg)
+[4.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(axis_status_msg)
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg' for CMake module files
+[4.591s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg' for CMake config files
+[4.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'cmake_prefix_path')
+[4.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.ps1'
+[4.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.dsv'
+[4.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/cmake_prefix_path.sh'
+[4.593s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib'
+[4.594s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'ld_library_path_lib')
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.ps1'
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.dsv'
+[4.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/ld_library_path_lib.sh'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/bin'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/pkgconfig/axis_status_msg.pc'
+[4.595s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages'
+[4.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('axis_status_msg', 'pythonpath')
+[4.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.ps1'
+[4.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.dsv'
+[4.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/hook/pythonpath.sh'
+[4.597s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/bin'
+[4.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.ps1'
+[4.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.dsv'
+[4.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.sh'
+[4.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.bash'
+[4.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.zsh'
+[4.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/colcon-core/packages/axis_status_msg)
+[8.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action -- -j8 -l8
+[8.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action
+[8.949s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrlx_motion_action)
+[8.950s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action' for CMake module files
+[8.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action
+[8.950s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action' for CMake config files
+[8.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'cmake_prefix_path')
+[8.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.ps1'
+[8.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.dsv'
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.sh'
+[8.952s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib'
+[8.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'ld_library_path_lib')
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.ps1'
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.dsv'
+[8.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.sh'
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/bin'
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/pkgconfig/ctrlx_motion_action.pc'
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages'
+[8.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'pythonpath')
+[8.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.ps1'
+[8.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.dsv'
+[8.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.sh'
+[8.954s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/bin'
+[8.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.ps1'
+[8.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.dsv'
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.sh'
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.bash'
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.zsh'
+[8.956s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/colcon-core/packages/ctrlx_motion_action)
+[8.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrlx_motion_action)
+[8.956s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action' for CMake module files
+[8.957s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action' for CMake config files
+[8.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'cmake_prefix_path')
+[8.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.ps1'
+[8.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.dsv'
+[8.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/cmake_prefix_path.sh'
+[8.958s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib'
+[8.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'ld_library_path_lib')
+[8.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.ps1'
+[8.958s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.dsv'
+[8.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/ld_library_path_lib.sh'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/bin'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/pkgconfig/ctrlx_motion_action.pc'
+[8.959s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages'
+[8.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrlx_motion_action', 'pythonpath')
+[8.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.ps1'
+[8.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.dsv'
+[8.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/hook/pythonpath.sh'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/bin'
+[8.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.ps1'
+[8.961s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.dsv'
+[8.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.sh'
+[8.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.bash'
+[8.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.zsh'
+[8.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/colcon-core/packages/ctrlx_motion_action)
+[8.962s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/riley/Dev/motion_action/motion_action_src/motion_action_cpp' with build type 'ament_cmake'
+[8.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/riley/Dev/motion_action/motion_action_src/motion_action_cpp'
+[8.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/motion_action_cpp -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp
+[9.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/motion_action_cpp -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp
+[9.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp -- -j8 -l8
+[15.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp -- -j8 -l8
+[15.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp
+[15.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_action_cpp)
+[15.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp' returned '0': AMENT_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages:/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/motion_action_cpp
+[15.492s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp' for CMake module files
+[15.493s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp' for CMake config files
+[15.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_action_cpp', 'cmake_prefix_path')
+[15.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.ps1'
+[15.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.dsv'
+[15.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.sh'
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib'
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/bin'
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/pkgconfig/motion_action_cpp.pc'
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/python3.12/site-packages'
+[15.494s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/bin'
+[15.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.ps1'
+[15.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.dsv'
+[15.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.sh'
+[15.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.bash'
+[15.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.zsh'
+[15.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/colcon-core/packages/motion_action_cpp)
+[15.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_action_cpp)
+[15.496s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp' for CMake module files
+[15.496s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp' for CMake config files
+[15.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_action_cpp', 'cmake_prefix_path')
+[15.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.ps1'
+[15.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.dsv'
+[15.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/hook/cmake_prefix_path.sh'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/bin'
+[15.497s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/pkgconfig/motion_action_cpp.pc'
+[15.498s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/lib/python3.12/site-packages'
+[15.498s] Level 1:colcon.colcon_core.environment:checking '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/bin'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.ps1'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.dsv'
+[15.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.sh'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.bash'
+[15.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/motion_action_cpp/package.zsh'
+[15.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/riley/Dev/motion_action/motion_action_src/install/motion_action_cpp/share/colcon-core/packages/motion_action_cpp)
+[15.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.500s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.500s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.504s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.516s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/Dev/motion_action/motion_action_src/install/local_setup.ps1'
+[15.517s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/riley/Dev/motion_action/motion_action_src/install/_local_setup_util_ps1.py'
+[15.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/Dev/motion_action/motion_action_src/install/setup.ps1'
+[15.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/Dev/motion_action/motion_action_src/install/local_setup.sh'
+[15.519s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/riley/Dev/motion_action/motion_action_src/install/_local_setup_util_sh.py'
+[15.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/Dev/motion_action/motion_action_src/install/setup.sh'
+[15.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/Dev/motion_action/motion_action_src/install/local_setup.bash'
+[15.521s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/Dev/motion_action/motion_action_src/install/setup.bash'
+[15.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/riley/Dev/motion_action/motion_action_src/install/local_setup.zsh'
+[15.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/riley/Dev/motion_action/motion_action_src/install/setup.zsh'

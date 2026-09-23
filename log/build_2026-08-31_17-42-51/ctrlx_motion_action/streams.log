@@ -1,0 +1,315 @@
+[0.008s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.082s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.167s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.432s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.504s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.056s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.794s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.796s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.899s] -- Found PythonExtra: /usr/bin/python3  
+[2.218s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.271s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.277s] -- Added test 'lint_cmake' to check CMake code style
+[2.279s] -- Added test 'xmllint' to check XML markup files
+[2.286s] -- Configuring done (2.3s)
+[2.336s] -- Generating done (0.0s)
+[2.347s] -- Build files have been written to: /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action
+[2.355s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/ctrlx_motion_action -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action
+[2.356s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action -- -j8 -l8
+[2.399s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.399s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.403s] [  3%] Built target ament_cmake_python_copy_ctrlx_motion_action
+[2.639s] running egg_info
+[2.639s] creating ctrlx_motion_action.egg-info
+[2.641s] [  3%] Built target ctrlx_motion_action__rosidl_generator_type_description
+[2.650s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.653s] writing ctrlx_motion_action.egg-info/PKG-INFO
+[2.653s] writing dependency_links to ctrlx_motion_action.egg-info/dependency_links.txt
+[2.653s] writing top-level names to ctrlx_motion_action.egg-info/top_level.txt
+[2.653s] writing manifest file 'ctrlx_motion_action.egg-info/SOURCES.txt'
+[2.662s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.706s] reading manifest file 'ctrlx_motion_action.egg-info/SOURCES.txt'
+[2.707s] [  7%] Built target ctrlx_motion_action__rs
+[2.707s] writing manifest file 'ctrlx_motion_action.egg-info/SOURCES.txt'
+[2.731s] [  7%] Built target ament_cmake_python_build_ctrlx_motion_action_egg
+[3.567s] [  7%] Built target ctrlx_motion_action__cpp
+[3.639s] [ 10%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/power_on__functions.c.o[0m
+[3.639s] [ 10%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/move_position__type_support.c.o[0m
+[3.639s] [ 12%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/move_position__description.c.o[0m
+[3.639s] [ 14%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/power_on__type_support.c.o[0m
+[3.639s] [ 16%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/reset_fault__description.c.o[0m
+[3.640s] [ 18%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/power_on__description.c.o[0m
+[3.640s] [ 20%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/move_position__functions.c.o[0m
+[3.647s] [ 21%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/reset_fault__functions.c.o[0m
+[3.682s] [ 23%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_c.dir/rosidl_generator_c/ctrlx_motion_action/action/detail/reset_fault__type_support.c.o[0m
+[3.835s] [ 25%] [32m[1mLinking C shared library libctrlx_motion_action__rosidl_generator_c.so[0m
+[3.866s] [ 25%] Built target ctrlx_motion_action__rosidl_generator_c
+[3.874s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.874s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.874s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.874s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.875s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.875s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.470s] [ 38%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/ctrlx_motion_action/action/reset_fault__type_support.cpp.o[0m
+[4.475s] [ 40%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/ctrlx_motion_action/action/move_position__type_support.cpp.o[0m
+[4.476s] [ 41%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_c.dir/rosidl_typesupport_c/ctrlx_motion_action/action/power_on__type_support.cpp.o[0m
+[4.559s] [ 43%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ctrlx_motion_action/action/power_on__type_support.cpp.o[0m
+[4.561s] [ 45%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ctrlx_motion_action/action/move_position__type_support.cpp.o[0m
+[4.565s] [ 47%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ctrlx_motion_action/action/reset_fault__type_support.cpp.o[0m
+[4.567s] [ 49%] [32m[1mLinking CXX shared library libctrlx_motion_action__rosidl_typesupport_c.so[0m
+[4.629s] [ 49%] Built target ctrlx_motion_action__rosidl_typesupport_c
+[4.636s] [ 50%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ctrlx_motion_action/action/detail/move_position__type_support.c.o[0m
+[4.641s] [ 52%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ctrlx_motion_action/action/detail/power_on__type_support.c.o[0m
+[4.699s] [ 54%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ctrlx_motion_action/action/detail/reset_fault__type_support.c.o[0m
+[4.795s] [ 56%] [32m[1mLinking C shared library libctrlx_motion_action__rosidl_typesupport_introspection_c.so[0m
+[4.838s] [ 58%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ctrlx_motion_action/action/detail/power_on__type_support.cpp.o[0m
+[4.841s] [ 60%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ctrlx_motion_action/action/detail/move_position__type_support.cpp.o[0m
+[4.848s] [ 60%] Built target ctrlx_motion_action__rosidl_typesupport_introspection_c
+[4.868s] [ 61%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ctrlx_motion_action/action/detail/reset_fault__type_support.cpp.o[0m
+[5.499s] [ 63%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ctrlx_motion_action/action/detail/dds_fastrtps/move_position__type_support.cpp.o[0m
+[5.500s] [ 65%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ctrlx_motion_action/action/detail/move_position__type_support_c.cpp.o[0m
+[5.700s] [ 67%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ctrlx_motion_action/action/detail/dds_fastrtps/power_on__type_support.cpp.o[0m
+[5.826s] [ 69%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ctrlx_motion_action/action/detail/power_on__type_support_c.cpp.o[0m
+[5.938s] [ 70%] [32m[1mLinking CXX shared library libctrlx_motion_action__rosidl_typesupport_cpp.so[0m
+[6.046s] [ 72%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ctrlx_motion_action/action/detail/dds_fastrtps/reset_fault__type_support.cpp.o[0m
+[6.148s] [ 72%] Built target ctrlx_motion_action__rosidl_typesupport_cpp
+[6.164s] [ 74%] [32mBuilding CXX object CMakeFiles/ctrlx_motion_action__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ctrlx_motion_action/action/detail/reset_fault__type_support_c.cpp.o[0m
+[6.276s] [ 76%] [32m[1mLinking CXX shared library libctrlx_motion_action__rosidl_typesupport_introspection_cpp.so[0m
+[6.374s] [ 76%] Built target ctrlx_motion_action__rosidl_typesupport_introspection_cpp
+[6.752s] [ 78%] [32m[1mLinking CXX shared library libctrlx_motion_action__rosidl_typesupport_fastrtps_c.so[0m
+[6.804s] [ 78%] Built target ctrlx_motion_action__rosidl_typesupport_fastrtps_c
+[7.021s] [ 80%] [32m[1mLinking CXX shared library libctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.087s] [ 80%] Built target ctrlx_motion_action__rosidl_typesupport_fastrtps_cpp
+[7.101s] [ 80%] Built target ctrlx_motion_action
+[7.114s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.287s] [ 81%] Built target ctrlx_motion_action__py
+[8.299s] [ 85%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_py.dir/rosidl_generator_py/ctrlx_motion_action/action/_move_position_s.c.o[0m
+[8.299s] [ 85%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_py.dir/rosidl_generator_py/ctrlx_motion_action/action/_power_on_s.c.o[0m
+[8.300s] [ 87%] [32mBuilding C object CMakeFiles/ctrlx_motion_action__rosidl_generator_py.dir/rosidl_generator_py/ctrlx_motion_action/action/_reset_fault_s.c.o[0m
+[8.449s] [ 89%] [32m[1mLinking C shared library libctrlx_motion_action__rosidl_generator_py.so[0m
+[8.482s] [ 89%] Built target ctrlx_motion_action__rosidl_generator_py
+[8.496s] [ 94%] [32mBuilding C object CMakeFiles/ctrlx_motion_action_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.496s] [ 94%] [32mBuilding C object CMakeFiles/ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.496s] [ 94%] [32mBuilding C object CMakeFiles/ctrlx_motion_action_s__rosidl_typesupport_c.dir/rosidl_generator_py/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_c.c.o[0m
+[8.643s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_introspection_c.so[0m
+[8.646s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_c.so[0m
+[8.651s] [100%] [32m[1mLinking C shared module rosidl_generator_py/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.668s] [100%] Built target ctrlx_motion_action_s__rosidl_typesupport_introspection_c
+[8.669s] [100%] Built target ctrlx_motion_action_s__rosidl_typesupport_c
+[8.673s] [100%] Built target ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c
+[8.681s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action -- -j8 -l8
+[8.682s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action
+[8.687s] -- Install configuration: ""
+[8.687s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ament_index/resource_index/rosidl_interfaces/ctrlx_motion_action
+[8.687s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/MovePosition.json
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/PowerOn.json
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/ResetFault.json
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/move_position.h
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__description.c
+[8.688s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__struct.h
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__functions.c
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__functions.h
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__functions.h
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__functions.h
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__description.c
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__struct.h
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__description.c
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__type_support.c
+[8.689s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__functions.c
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__type_support.c
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__type_support.c
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__type_support.h
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__type_support.h
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__struct.h
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__functions.c
+[8.690s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__type_support.h
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/reset_fault.h
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/power_on.h
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg/rosidl_generator_c__visibility_control.h
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/library_path.sh
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/library_path.dsv
+[8.691s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_generator_c.so
+[8.691s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_generator_c.so" to ""
+[8.691s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.692s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.692s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.692s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__rosidl_typesupport_fastrtps_c.h
+[8.693s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__rosidl_typesupport_fastrtps_c.h
+[8.693s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__rosidl_typesupport_fastrtps_c.h
+[8.693s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg
+[8.693s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.693s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_fastrtps_c.so
+[8.693s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_fastrtps_c.so" to ""
+[8.693s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.693s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.694s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__type_support.c
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__type_support.c
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__type_support.c
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__rosidl_typesupport_introspection_c.h
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__rosidl_typesupport_introspection_c.h
+[8.694s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__rosidl_typesupport_introspection_c.h
+[8.694s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg
+[8.695s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.695s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_introspection_c.so
+[8.695s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_introspection_c.so" to ""
+[8.695s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_c.so
+[8.695s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_c.so" to ""
+[8.695s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.695s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.695s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__type_support.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__struct.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__traits.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__type_support.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__builder.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__type_support.hpp
+[8.696s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__traits.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__struct.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__struct.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__builder.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__builder.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__traits.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/move_position.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/power_on.hpp
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/reset_fault.hpp
+[8.697s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.697s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.697s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.697s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.697s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/dds_fastrtps
+[8.698s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__rosidl_typesupport_fastrtps_cpp.hpp
+[8.698s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__rosidl_typesupport_fastrtps_cpp.hpp
+[8.698s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__rosidl_typesupport_fastrtps_cpp.hpp
+[8.698s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg
+[8.698s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.698s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.so
+[8.698s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.698s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action
+[8.699s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action
+[8.699s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail
+[8.699s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__rosidl_typesupport_introspection_cpp.hpp
+[8.699s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__rosidl_typesupport_introspection_cpp.hpp
+[8.699s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/power_on__type_support.cpp
+[8.699s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__rosidl_typesupport_introspection_cpp.hpp
+[8.699s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/move_position__type_support.cpp
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/include/ctrlx_motion_action/ctrlx_motion_action/action/detail/reset_fault__type_support.cpp
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_introspection_cpp.so
+[8.700s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_introspection_cpp.so" to ""
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_cpp.so
+[8.700s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_typesupport_cpp.so" to ""
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/pythonpath.sh
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/pythonpath.dsv
+[8.700s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action-0.0.0-py3.12.egg-info
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action-0.0.0-py3.12.egg-info/PKG-INFO
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action-0.0.0-py3.12.egg-info/top_level.txt
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action
+[8.701s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/__init__.py
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_c.c
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_move_position_s.c
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_power_on.py
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/__init__.py
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_power_on_s.c
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_move_position.py
+[8.702s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_reset_fault_s.c
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_reset_fault.py
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_introspection_c.c
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/_ctrlx_motion_action_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_c.so
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_introspection_c.so
+[8.703s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c.so
+[8.751s] Listing '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action'...
+[8.751s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/__init__.py'...
+[8.751s] Listing '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action'...
+[8.751s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/__init__.py'...
+[8.751s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_move_position.py'...
+[8.751s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_power_on.py'...
+[8.751s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/action/_reset_fault.py'...
+[8.756s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c.so
+[8.756s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.756s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_introspection_c.so
+[8.756s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_introspection_c.so" to ""
+[8.757s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_c.so
+[8.757s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/python3.12/site-packages/ctrlx_motion_action/ctrlx_motion_action_s__rosidl_typesupport_c.so" to ""
+[8.757s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_generator_py.so
+[8.757s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/lib/libctrlx_motion_action__rosidl_generator_py.so" to ""
+[8.757s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ament_index/resource_index/rust_packages/ctrlx_motion_action
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/src
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/src/action
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/src/action/rmw.rs
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/src/lib.rs
+[8.758s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/src/action.rs
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/Cargo.toml
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/rust/build.rs
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/MovePosition.idl
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/PowerOn.idl
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/ResetFault.idl
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/MovePosition.action
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/PowerOn.action
+[8.759s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/action/ResetFault.action
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ament_index/resource_index/package_run_dependencies/ctrlx_motion_action
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ament_index/resource_index/parent_prefix_path/ctrlx_motion_action
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/ament_prefix_path.sh
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/ament_prefix_path.dsv
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/path.sh
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/environment/path.dsv
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/local_setup.bash
+[8.760s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/local_setup.sh
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/local_setup.zsh
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/local_setup.dsv
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.dsv
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ament_index/resource_index/packages/ctrlx_motion_action
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_generator_cExport.cmake
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_generator_cExport-noconfig.cmake
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_typesupport_fastrtps_cExport.cmake
+[8.761s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_introspection_cExport.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_cExport.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_cExport-noconfig.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_generator_cppExport.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.762s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_introspection_cppExport.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_cppExport.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_action__rosidl_typesupport_cppExport-noconfig.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_generator_pyExport.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/export_ctrlx_motion_action__rosidl_generator_pyExport-noconfig.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/rosidl_cmake-extras.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.763s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ament_cmake_export_libraries-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ament_cmake_export_targets-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_actionConfig.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/cmake/ctrlx_motion_actionConfig-version.cmake
+[8.764s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/ctrlx_motion_action/share/ctrlx_motion_action/package.xml
+[8.765s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/ctrlx_motion_action

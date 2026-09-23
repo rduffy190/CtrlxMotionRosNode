@@ -1,0 +1,242 @@
+[0.008s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/axis_status_msg -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.095s] -- Detecting C compiler ABI info
+[0.157s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.358s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.431s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.497s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.499s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.964s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.692s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.792s] -- Found PythonExtra: /usr/bin/python3  
+[2.107s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.152s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.156s] -- Added test 'lint_cmake' to check CMake code style
+[2.157s] -- Added test 'xmllint' to check XML markup files
+[2.160s] -- Configuring done (2.1s)
+[2.183s] -- Generating done (0.0s)
+[2.192s] -- Build files have been written to: /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg
+[2.198s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/riley/Dev/motion_action/motion_action_src/axis_status_msg -DCMAKE_INSTALL_PREFIX=/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg
+[2.198s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg -- -j8 -l8
+[2.237s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.237s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.243s] [  5%] Built target ament_cmake_python_copy_axis_status_msg
+[2.409s] [  5%] Built target axis_status_msg__rosidl_generator_type_description
+[2.427s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.430s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.430s] [ 11%] Built target axis_status_msg__rs
+[2.454s] running egg_info
+[2.455s] creating axis_status_msg.egg-info
+[2.477s] writing axis_status_msg.egg-info/PKG-INFO
+[2.477s] writing dependency_links to axis_status_msg.egg-info/dependency_links.txt
+[2.477s] writing top-level names to axis_status_msg.egg-info/top_level.txt
+[2.478s] writing manifest file 'axis_status_msg.egg-info/SOURCES.txt'
+[2.545s] reading manifest file 'axis_status_msg.egg-info/SOURCES.txt'
+[2.546s] writing manifest file 'axis_status_msg.egg-info/SOURCES.txt'
+[2.574s] [ 11%] Built target ament_cmake_python_build_axis_status_msg_egg
+[2.642s] [ 11%] Built target axis_status_msg__cpp
+[2.666s] [ 14%] [32mBuilding C object CMakeFiles/axis_status_msg__rosidl_generator_c.dir/rosidl_generator_c/axis_status_msg/msg/detail/axis_status__functions.c.o[0m
+[2.667s] [ 17%] [32mBuilding C object CMakeFiles/axis_status_msg__rosidl_generator_c.dir/rosidl_generator_c/axis_status_msg/msg/detail/axis_status__description.c.o[0m
+[2.667s] [ 20%] [32mBuilding C object CMakeFiles/axis_status_msg__rosidl_generator_c.dir/rosidl_generator_c/axis_status_msg/msg/detail/axis_status__type_support.c.o[0m
+[2.710s] [ 22%] [32m[1mLinking C shared library libaxis_status_msg__rosidl_generator_c.so[0m
+[2.739s] [ 22%] Built target axis_status_msg__rosidl_generator_c
+[2.747s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.748s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.748s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.748s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.748s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.748s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.983s] [ 42%] [32mBuilding CXX object CMakeFiles/axis_status_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/axis_status_msg/msg/axis_status__type_support.cpp.o[0m
+[2.988s] [ 45%] [32mBuilding CXX object CMakeFiles/axis_status_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/axis_status_msg/msg/axis_status__type_support.cpp.o[0m
+[3.001s] [ 48%] [32mBuilding CXX object CMakeFiles/axis_status_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/axis_status_msg/msg/detail/axis_status__type_support_c.cpp.o[0m
+[3.006s] [ 51%] [32mBuilding CXX object CMakeFiles/axis_status_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/axis_status_msg/msg/detail/dds_fastrtps/axis_status__type_support.cpp.o[0m
+[3.012s] [ 54%] [32mBuilding CXX object CMakeFiles/axis_status_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/axis_status_msg/msg/detail/axis_status__type_support.cpp.o[0m
+[3.017s] [ 57%] [32mBuilding C object CMakeFiles/axis_status_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/axis_status_msg/msg/detail/axis_status__type_support.c.o[0m
+[3.030s] [ 60%] [32m[1mLinking CXX shared library libaxis_status_msg__rosidl_typesupport_c.so[0m
+[3.048s] [ 62%] [32m[1mLinking C shared library libaxis_status_msg__rosidl_typesupport_introspection_c.so[0m
+[3.066s] [ 62%] Built target axis_status_msg__rosidl_typesupport_c
+[3.079s] [ 62%] Built target axis_status_msg__rosidl_typesupport_introspection_c
+[3.244s] [ 65%] [32m[1mLinking CXX shared library libaxis_status_msg__rosidl_typesupport_cpp.so[0m
+[3.269s] [ 68%] [32m[1mLinking CXX shared library libaxis_status_msg__rosidl_typesupport_introspection_cpp.so[0m
+[3.280s] [ 68%] Built target axis_status_msg__rosidl_typesupport_cpp
+[3.309s] [ 68%] Built target axis_status_msg__rosidl_typesupport_introspection_cpp
+[3.398s] [ 71%] [32m[1mLinking CXX shared library libaxis_status_msg__rosidl_typesupport_fastrtps_c.so[0m
+[3.439s] [ 71%] Built target axis_status_msg__rosidl_typesupport_fastrtps_c
+[3.440s] [ 74%] [32m[1mLinking CXX shared library libaxis_status_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.476s] [ 74%] Built target axis_status_msg__rosidl_typesupport_fastrtps_cpp
+[3.492s] [ 74%] Built target axis_status_msg
+[3.508s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.816s] [ 77%] Built target axis_status_msg__py
+[3.834s] [ 80%] [32mBuilding C object CMakeFiles/axis_status_msg__rosidl_generator_py.dir/rosidl_generator_py/axis_status_msg/msg/_axis_status_s.c.o[0m
+[3.952s] [ 82%] [32m[1mLinking C shared library libaxis_status_msg__rosidl_generator_py.so[0m
+[3.996s] [ 82%] Built target axis_status_msg__rosidl_generator_py
+[4.024s] [ 85%] [32mBuilding C object CMakeFiles/axis_status_msg_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.038s] [ 88%] [32mBuilding C object CMakeFiles/axis_status_msg_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.058s] [ 91%] [32mBuilding C object CMakeFiles/axis_status_msg_s__rosidl_typesupport_c.dir/rosidl_generator_py/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[4.133s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/axis_status_msg/axis_status_msg_s__rosidl_typesupport_introspection_c.so[0m
+[4.150s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/axis_status_msg/axis_status_msg_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.166s] [ 97%] Built target axis_status_msg_s__rosidl_typesupport_introspection_c
+[4.207s] [ 97%] Built target axis_status_msg_s__rosidl_typesupport_fastrtps_c
+[4.216s] [100%] [32m[1mLinking C shared module rosidl_generator_py/axis_status_msg/axis_status_msg_s__rosidl_typesupport_c.so[0m
+[4.253s] [100%] Built target axis_status_msg_s__rosidl_typesupport_c
+[4.264s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg -- -j8 -l8
+[4.274s] Invoking command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg
+[4.286s] -- Install configuration: ""
+[4.286s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/ament_index/resource_index/rosidl_interfaces/axis_status_msg
+[4.286s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/msg/AxisStatus.json
+[4.286s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.287s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.287s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/axis_status.h
+[4.288s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.288s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__functions.h
+[4.288s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__type_support.h
+[4.288s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__description.c
+[4.288s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__functions.c
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__type_support.c
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__struct.h
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/rosidl_generator_c__visibility_control.h
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/library_path.sh
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/library_path.dsv
+[4.291s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_generator_c.so
+[4.291s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_generator_c.so" to ""
+[4.291s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.292s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.292s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.292s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.292s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_fastrtps_c.so
+[4.292s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[4.292s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.292s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.294s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.294s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__rosidl_typesupport_introspection_c.h
+[4.294s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__type_support.c
+[4.294s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.294s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_introspection_c.so
+[4.294s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_introspection_c.so" to ""
+[4.294s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_c.so
+[4.296s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_c.so" to ""
+[4.296s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.296s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.296s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/axis_status.hpp
+[4.296s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.296s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__type_support.hpp
+[4.296s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__traits.hpp
+[4.296s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__struct.hpp
+[4.296s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__builder.hpp
+[4.297s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.298s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.298s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.298s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.298s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/dds_fastrtps
+[4.298s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.298s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.299s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_fastrtps_cpp.so
+[4.300s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.300s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg
+[4.300s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg
+[4.300s] -- Up-to-date: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail
+[4.300s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__type_support.cpp
+[4.300s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/include/axis_status_msg/axis_status_msg/msg/detail/axis_status__rosidl_typesupport_introspection_cpp.hpp
+[4.300s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_introspection_cpp.so
+[4.302s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[4.302s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_cpp.so
+[4.302s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_typesupport_cpp.so" to ""
+[4.302s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/pythonpath.sh
+[4.302s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/pythonpath.dsv
+[4.302s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg-0.0.0-py3.12.egg-info
+[4.303s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg-0.0.0-py3.12.egg-info/PKG-INFO
+[4.303s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg-0.0.0-py3.12.egg-info/top_level.txt
+[4.304s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.304s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.304s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg
+[4.304s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_introspection_c.c
+[4.304s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_introspection_c.so
+[4.305s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/__init__.py
+[4.305s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_fastrtps_c.so
+[4.305s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg
+[4.306s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg/__init__.py
+[4.306s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg/_axis_status.py
+[4.306s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg/_axis_status_s.c
+[4.306s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_c.c
+[4.307s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_c.so
+[4.307s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/_axis_status_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.362s] Listing '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg'...
+[4.362s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/__init__.py'...
+[4.362s] Listing '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg'...
+[4.362s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg/__init__.py'...
+[4.362s] Compiling '/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/msg/_axis_status.py'...
+[4.366s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_fastrtps_c.so
+[4.366s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.366s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_introspection_c.so
+[4.367s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_introspection_c.so" to ""
+[4.368s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_c.so
+[4.369s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/python3.12/site-packages/axis_status_msg/axis_status_msg_s__rosidl_typesupport_c.so" to ""
+[4.369s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_generator_py.so
+[4.370s] -- Set non-toolchain portion of runtime path of "/home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/lib/libaxis_status_msg__rosidl_generator_py.so" to ""
+[4.371s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/ament_index/resource_index/rust_packages/axis_status_msg
+[4.371s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust
+[4.372s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/src
+[4.372s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/src/msg
+[4.372s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/src/msg/rmw.rs
+[4.372s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/src/msg.rs
+[4.373s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/src/lib.rs
+[4.373s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/Cargo.toml
+[4.374s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/rust/build.rs
+[4.374s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/msg/AxisStatus.idl
+[4.374s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/msg/AxisStatus.msg
+[4.375s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/ament_index/resource_index/package_run_dependencies/axis_status_msg
+[4.375s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/ament_index/resource_index/parent_prefix_path/axis_status_msg
+[4.376s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/ament_prefix_path.sh
+[4.376s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/ament_prefix_path.dsv
+[4.376s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/path.sh
+[4.377s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/environment/path.dsv
+[4.377s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/local_setup.bash
+[4.378s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/local_setup.sh
+[4.378s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/local_setup.zsh
+[4.378s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/local_setup.dsv
+[4.379s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.dsv
+[4.379s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/ament_index/resource_index/packages/axis_status_msg
+[4.380s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_generator_cExport.cmake
+[4.380s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_generator_cExport-noconfig.cmake
+[4.381s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[4.381s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.381s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_introspection_cExport.cmake
+[4.382s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.382s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_cExport.cmake
+[4.383s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_cExport-noconfig.cmake
+[4.383s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_generator_cppExport.cmake
+[4.383s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.384s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.384s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_introspection_cppExport.cmake
+[4.385s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.385s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_cppExport.cmake
+[4.386s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[4.386s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_generator_pyExport.cmake
+[4.387s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/export_axis_status_msg__rosidl_generator_pyExport-noconfig.cmake
+[4.387s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/rosidl_cmake-extras.cmake
+[4.387s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.387s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[4.388s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/ament_cmake_export_targets-extras.cmake
+[4.388s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.388s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.388s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.389s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[4.389s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msgConfig.cmake
+[4.389s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/cmake/axis_status_msgConfig-version.cmake
+[4.389s] -- Installing: /home/riley/Dev/motion_action/motion_action_src/install/axis_status_msg/share/axis_status_msg/package.xml
+[4.396s] Invoked command in '/home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/riley/Dev/motion_action/motion_action_src/build/axis_status_msg

@@ -1,0 +1,9 @@
+*.snap
+build/ 
+.vscode/ 
+.craft/
+parts/ 
+prime/ 
+stage/ 
+install/ 
+overlay/ 

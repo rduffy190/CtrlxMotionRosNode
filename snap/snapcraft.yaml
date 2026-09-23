@@ -1,0 +1,70 @@
+name: ctrlx-motion-ros-bridge
+version: 0.1.0
+summary: ROS 2 bridge to ctrlX MOTION
+description: |
+  Exposes each configured ctrlX MOTION axis as ROS 2 interfaces:
+  a status topic (<axis>_status) and three action servers
+  (<axis>_power, <axis>_reset, <axis>_move_position).
+
+title: ctrlX MOTION ROS 2 Bridge
+license: Apache-2.0
+
+base: core24
+grade: stable
+confinement: strict
+type: app
+
+platforms:
+  amd64:
+
+parts:
+  ros-app:
+    plugin: dump
+    # The colcon workspace install/ tree, built BEFORE snapcraft runs.
+    # Contains local_setup.bash plus one directory per package:
+    # axis_status_msg/, ctrlx_motion_action/, motion_action_cpp/
+    source: install
+    stage-packages:
+      # Ships libcomm_datalayer.so into the snap. The executable only records a
+      # DT_NEEDED entry at link time; inside strict confinement the host's
+      # /usr/lib is not visible, so the library has to be in the snap.
+      # The deb is Architecture: all and carries both triplets, so this one
+      # entry covers amd64 and arm64.
+      - ctrlx-datalayer
+    override-build: |
+        craftctl default
+
+  wrapper-scripts:
+    plugin: dump
+    source: wrapper/
+    organize:
+      ./run-ctrlx-motion.sh : usr/bin/run-ctrlx-motion
+
+apps:
+  ctrlx-motion:
+    command: usr/bin/run-ctrlx-motion
+    plugs:
+      - ros-base
+      - network
+      - network-bind
+    daemon: simple
+    passthrough:
+      restart-condition: always
+      restart-delay: 10s
+
+plugs:
+  ros-base:
+    interface: content
+    content: executables
+    target: $SNAP/rosruntime
+
+  datalayer:
+    interface: content
+    content: datalayer
+    target: $SNAP_DATA/.datalayer
+
+lint:
+  ignore:
+    - library:
+      - usr/lib/aarch64-linux-gnu/libcomm_datalayer.so.*
+      - usr/lib/x86_64-linux-gnu/libcomm_datalayer.so.*

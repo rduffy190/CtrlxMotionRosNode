@@ -1,0 +1,8 @@
+float64 acc
+float64 dcc
+float64 vel
+float64 pos
+---
+bool done
+---
+float64 dist_to_target

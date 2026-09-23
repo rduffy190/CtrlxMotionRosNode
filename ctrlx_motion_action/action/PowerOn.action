@@ -1,0 +1,5 @@
+bool power_on
+---
+bool powered_on
+---
+bool powering_on
